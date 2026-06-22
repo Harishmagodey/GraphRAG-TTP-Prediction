@@ -1,0 +1,40 @@
+{
+    "entities": [
+        {
+            "text": "Patchwork",
+            "type": "ThreatActor",
+            "confidence": 0.94
+        },
+        {
+            "text": "PowerShell",
+            "type": "Tool",
+            "confidence": 0.91
+        },
+        {
+            "text": "CVE-2017-11882",
+            "type": "Vulnerability",
+            "confidence": 0.96
+        },
+        {
+            "text": "Registry Run Keys",
+            "type": "Technique",
+            "confidence": 0.9
+        }
+    ],
+    "relations": [
+        {
+            "head": "Patchwork",
+            "relation": "uses",
+            "tail": "PowerShell",
+            "time": "unknown",
+            "confidence": 0.89
+        },
+        {
+            "head": "Patchwork",
+            "relation": "exploits",
+            "tail": "CVE-2017-11882",
+            "time": "unknown",
+            "confidence": 0.91
+        }
+    ]
+}

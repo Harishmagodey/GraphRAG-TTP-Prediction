@@ -1,0 +1,6 @@
+Model,Hits@1,Hits@3,MRR,F1
+Markov Chain,0.72,0.81,0.74,0.71
+TransE / RotatE,0.78,0.87,0.8,0.77
+GAT / R-GCN,0.82,0.9,0.84,0.83
+Temporal GNN,0.85,0.92,0.87,0.86
+LLM-only,0.8,0.88,0.82,0.81
